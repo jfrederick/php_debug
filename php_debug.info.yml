@@ -1,0 +1,4 @@
+name: "PHP Debug"
+type: module
+description: "byebye bugs"
+core: 8.x

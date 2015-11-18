@@ -1,0 +1,7 @@
+php_debug.debug:
+  path: '/admin/php-debug'
+  defaults:
+    _controller: '\Drupal\php_debug\Controller\PhpDebugController::phpDebugPage'
+    _title: 'byebye bugs'
+  requirements:
+    _permission: 'access content'
